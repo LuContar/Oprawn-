@@ -1,0 +1,360 @@
+* {
+  margin: 0 !important;
+  padding: 0;
+  box-sizing: border-box;
+  color: #686666;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-display: swap;
+}
+
+/*---------------------------------------------Nav------------------------------------------------*/
+.p__titulo {
+  color: rgb(255, 255, 255);
+  font-family: 'STIX Two Text', serif;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 30px;
+}
+
+.nav-link {
+  color: rgb(255, 255, 255)!important;
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 18px;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.nav-link:hover {
+  color: rgb(68, 150, 1)!important;
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 25px;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  transition: 0.3s;
+}
+
+/*-----------------------------------------Animacion------------------------------------------------*/
+.animacion__1 {
+  height: 650px;
+  width: 100%;
+  background-image: url(../Image/Propiedad_Horizontal_y_Consorcios.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: sepia(0.2);
+}
+
+.index__hero {
+  height: 650px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__h2 {
+  color: black;
+  border: 3px solid black;
+  border-radius: 8px;
+  padding: 10px 10px 10px 10px;
+  font-family: 'STIX Two Text', serif;
+  font-size: 50px;
+}
+
+/* .logo__animacion {
+  height: 350px;
+  width: 280px;
+} */
+
+.logo__animacion:hover {
+  transition: 5s;
+  transform: scale(1);
+  transform: scale(1.4);
+}
+
+/* transicion*/
+.hero__h2:hover {
+  transition: 5s;
+  transform: scale(1);
+  transform: scale(2);
+}
+
+/*---------------------------------------Quienes somos------------------------------------------------*/
+.container__13 {
+  background-color: rgba(79, 184, 79, 0.747) !important;
+  margin: 0px 0px -25px !important;
+}
+
+.quienessomos__h2 {
+  text-align: center;
+  padding: 0.9em 0;
+  border-bottom: 2px solid green;
+  text-shadow: 2px 1px 2px black;
+  font-family: 'Staatliches', cursive;
+  font-size: 40px;
+}
+
+.card {
+  background-color: rgb(0, 0, 0);
+}
+
+.btn__objetivo {
+  background-color: black !important;
+  border: black;
+  border-radius: 10px;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+
+.btn__objetivo:hover {
+  background-color: rgb(255, 0, 0) !important;
+  border-radius: 10px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.quienessomos__p {
+  color: black;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.objetivo__div {
+  color: white;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 20px;
+}
+
+/*---------------------------------------Carrousel------------------------------------------------*/
+.container__14 {
+  background-color: black !important;
+}
+
+.nombre__h5 {
+  color: white;
+}
+
+.nombre__p {
+  color: white;
+}
+
+.carousel-item {
+  transition: 0.09s;
+}
+
+.carousel-inner {
+  margin: -24px 0px -24px 0px !important;
+  background-color: black !important;
+}
+
+/*---------------------------------------servicios------------------------------------------------*/
+.container__15 {
+  background-color: rgba(79, 184, 79, 0.747) !important;
+}
+
+.servicios__h4 {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  text-align: center;
+  padding: 0.9em 0;
+  border-bottom: 2px solid green;
+  font-family: 'Staatliches', cursive;
+  font-size: 40px;
+  /* text-shadow: 2px 1px 2px black; */
+}
+
+.servicios__h5 {
+  color: black;
+  text-decoration: underline;
+  background-color: rgba(127, 204, 127, 0.747);
+  font-family: 'Staatliches', cursive;
+  text-shadow: 2px 1px 2px rgb(207, 207, 207);
+}
+
+.servicios__h5:hover {
+  color:green;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  font-size: 22px;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+
+.servicios__p {
+  color: black;
+  padding-top: 12px;
+  padding-bottom: 22px;
+  background-color: rgba(127, 204, 127, 0.747);
+  font-family: 'Rajdhani', sans-serif;
+}
+
+/*---------------------------------------Contacto ------------------------------------------------*/
+.container__16 {
+  background-color: black;
+}
+
+.h4__contacto {
+  color: white;
+  padding-top: 33px;
+  text-align: center;
+  padding: 0.9em 0;
+  border-bottom: 2px solid green;
+  font-family: 'Staatliches', cursive;
+  font-size: 40px;
+  text-shadow: 2px 1px 2px rgb(49, 49, 49)
+}
+
+/*---------------------------------------FOOTER ------------------------------------------------*/
+.footer__page {
+  padding: 1em 4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../Image/F100028985.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.title__footer {
+  text-align: center;
+  padding: 0.9em 0;
+  border-bottom: 2px solid green;
+  font-family: 'Staatliches', cursive;
+  font-size: 30px;
+  text-shadow: 2px 1px 2px rgb(49, 49, 49)
+}
+
+.datos__h5 {
+  color: white;
+  font-family: 'Staatliches', cursive;
+  font-size: 30px;
+  text-shadow: 2px 1px 2px rgb(49, 49, 49)
+}
+
+.consultas__h5 {
+  color: white;
+  font-family: 'Staatliches', cursive;
+  font-size: 30px;
+  text-shadow: 2px 1px 2px rgb(49, 49, 49)
+  
+}
+
+.liContacto {
+  color: green;
+  font-size: 20px;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 2px;
+}
+
+.liContacto:hover {
+  color: green;
+  font-size: 22px;
+  text-shadow: 1px 1px 1px rgb(41, 5, 247)
+}
+
+.footer__page ul {
+  padding: 1em;
+  color: white;
+}
+
+.footer__page ul i {
+  padding: 0.5em;
+  font-size: 1.5rem;
+}
+
+.footer__page a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: 'Staatliches', cursive;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.footer__page a:hover {
+  color: green;
+}
+
+.form-label {
+  color: white;
+  font-family: 'Staatliches', cursive;
+  font-size: 16px;
+  text-shadow: 2px 1px 2px rgb(49, 49, 49);
+  letter-spacing: 2px;
+}
+
+.fab{
+  font-size: 50px !important;
+  text-align: center;
+  color: red;
+}
+.map {
+  padding-top: 30px;
+}
+
+/*---------------------------------------Whatsapp------------------------------------------------*/
+.float {
+  position: fixed !important;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: green;
+  color: white;
+  border: 3px solid white;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 33px;
+}
+
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: red;
+  transition: 1s;
+  transform: scale(2);
+}
+
+.my-float {
+  margin-top: 16px;
+  color: white;
+}
+
+.title__footer {
+  color: white;
+}
+
+/*---------------------------------------Copyright------------------------------------------------*/
+.copyright {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-family: 'Libre Barcode 39 Extended Text', cursive;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+/*--------------------------------------Page nuestros trabajos-------------------------------------*/
+.card__image {
+  background-color: black;
+}
+
+.Obras__button {
+  color: rgb(2, 2, 2) !important;
+  font-family: 'Chakra Petch', sans-serif !important;
+}
+
+.Obras__button:hover {
+  font-size: 25px;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  transition: 0.3s;
+  font-family: 'Chakra Petch', sans-serif !important;
+}
+
+
+
+
+
